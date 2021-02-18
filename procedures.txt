@@ -1,0 +1,6 @@
+PL|residentid|uniqueid|allscripts	PL|supervisorid|uniqueid|allscripts	PL|ProcedureName	PL|DatePerformed	PL|PatientID	PL|PatientDOB	PL|PatientGender	PL|ResidentComment	PL|EMAILSUPERVISOR	PL|Confirmed	PL|Pass
+10001	12001	Adult Medical Resuscitation Director	12/31/2019	001	01/01/2018	Male	Joe Smith	1	0	0
+10002	12001	Dislocation Reduction	12/31/2019	002	01/01/2018	Male	The procedure was done without complications.	1	0	0
+10003	12002	Slit Lamp Exam	12/31/2019	003	01/01/2018	Female	The patient tolerated the procedure well. The procedure was done without complications	1	0	0
+10004	120002	Laceration Repair	12/31/2019	004	01/01/2018	Female	A simple laceration on the right cheek measuring less then 2.6 cm was repaired (CPT 12011). The wound was irrigated copiously under pressure irrigation with normal saline. Anesthesia was obtained with local anesthetic infiltration. The wound was closed under sterile procedure with 1 Size 6.0 nylon suture(s)	1	0	0
+

@@ -1,0 +1,37 @@
+# FILE FORMAT EXPLANATION
+# ---------------------------------------------------------------------------
+# PL|EMAILSUPERVISOR : set to 1 to enable emailing the attending physician
+# PL|Confirmed       : set to 0 to disable automatic confirmation of procedure
+# PL|Pass            : set to 0 to disable passing procedure directly
+
+FILE HEADER (one complete line, no empty spaces)
+# ------------------------------------------------
+# PL|residentid|uniqueid|allscripts (tab)
+# PL|supervisorid|uniqueid|allscripts (tab)
+# PL|ProcedureName (tab)
+# PL|DatePerformed (tab)
+# PL|PatientID (tab)
+# PL|PatientDOB (tab)
+# PL|PatientGender (tab)
+# PL|ResidentComment (tab)
+# PL|EMAILSUPERVISOR (tab)
+# PL|Confirmed (tab)
+# PL|Pass
+
+# PL|residentid|uniqueid|allscripts\tPL|supervisorid|uniqueid|allscripts\tPL|ProcedureName\tPL|DatePerformed\tPL|PatientID\tPL|PatientDOB\tPL|PatientGender\tPL|ResidentComment\tPL|EMAILSUPERVISOR\tPL|Confirmed\tPL|Pass
+
+FILE CONTENTS
+#------------
+# $resident_id (tab)
+# $attending_id(tab)
+# $procedure_name(tab)
+# $procedure_date(tab)
+# $mrn(tab)
+# $dob(tab)
+# $gender(tab)
+# $procedure_comment(tab)
+# 1(tab) -- PL|EMAILSUPERVISOR
+# 0(tab) -- PL|Confirmed
+# 0      -- PL|Pass
+
+# $resident_id\t$attending_id\t$procedure_name\t$procedure_date\t$mrn\t$dob\t$gender\t$procedure_comment\t1\t0\t0
